@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    /* height: 50px; */
+}
+
+.nav-link:hover {
+    background-color: yellowgreen;
+    color: black;
+}
+
+.modal-footer {
+    padding: 10px 10px 0px 0px;
+}
+
+.nav-tabs li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.form-check {
+    float: right;
+}
+
+.form-check-input {
+    margin-top: 12px;
+    margin-left: -19px;
+}
+
+.text-white {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.product-header {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.partner {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.partner h2::after {
+    display: block;
+    content: "";
+    width: 170px;
+    height: 5px;
+    background-color: yellowgreen;
+    margin: 5px auto 5px;
+}
+
+.carousel-caption {
+    margin-bottom: 40%;
+}
+
+.btn-primary {
+    background: #e42448;
+    border-color: transparent !important;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    width: 100px;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background: #181174;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.sale-price {
+    font-size: 30px;
+}
+
+.sale-price span {
+    text-decoration: line-through;
+    color: red;
+}
+
+.active-filter-btn {
+    background-color: yellowgreen;
+    color: #fff!important;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+.image span {
+    top: 30px;
+    right: 30px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+
+/* .image1 span {
+    left: 60px;
+    width: 46px;
+    height: 46px;
+} */
+
+.image1 .sale-off {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 50px;
+    height: 35px;
+    padding-left: 10px;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.image2 .sale-off {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 50px;
+    height: 35px;
+    padding-left: 10px;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+
+.join {
+    position: absolute;
+    top: 50%;
+    right: 48%;
+    background-color: black;
+    color: white;
+}
+
+.msg {
+    color: red;
+}
+
+.join::after {
+    padding-left: 10px;
+    content: "\2192";
+    border: 3px solid black;
+}
+
+.join:hover {
+    cursor: pointer;
+}
+
+.saveBtn {
+    padding-left: 70px;
+}
+
+.sale {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+}
+
+.new {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+
+.description {
+    text-align: center;
+}
+
+.checked {
+    color: orange;
+}
+
+.discount {
+    position: relative;
+    height: 150px;
+    background-color: yellow;
+}
+
+.discount p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.discount .member {
+    position: absolute;
+    margin-left: 45%;
+    margin-right: 45%
+}
+
+.dropdown-toggle {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.example {
+    height: 550px;
+}
+
+.signUpBtn {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.signUpBtn:hover {
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #343A40;
+    color: white;
+    border: 1px solid white;
+}
+
+.dropdown-menu:hover {
+    color: black;
+}
+
+.testi {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.testimonials .row {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin: 40px auto;
+}
+
+.profile {
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+
+.profile img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+
+.user {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.shopping-cart {
+    padding: 3% 0;
+}
+
+.cart-items+.cart-items {
+    padding: 2% 0;
+}
+
+.price-details h6 {
+    padding: 3% 2%;
+}
+
+.account-name {
+    text-decoration: #fff;
+}
